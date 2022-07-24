@@ -1,0 +1,39 @@
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+.sf-menu a, .sf-menu a:visited  {
+    /* text color */
+    color:          #13a;
+}
+.sf-menu li {
+    /* box color for top-level menu items */
+    background:     #BDD2FF;
+}
+.sf-menu li li {
+    /* box color for second-level menu items */
+    background:     #AABDE6;
+}
+.sf-menu li li li {
+    /* box color for third-level menu items */
+    background:     #9AAEDB;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    /* box color for menu items when the mouse hovers over them */
+    background:     #CFDEFF;
+    outline:        0;
+}
+
+
+
+
+
+

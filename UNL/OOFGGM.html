@@ -1,0 +1,230 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Select 7</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+            input, label {
+                display:block;
+            }
+        </style>
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <!-- Popupate Comboboxes -->     
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="/vendor/lightbox/css/lightbox.min.css">
+        <script src="/js/UNL/OOFGGM.js"></script>
+        <!-- Popupate Comboboxes -->     
+
+        <!-- Superfish stuff-->
+        <link rel="stylesheet" href="/vendor/superfish/dist/css/superfish.css" media="screen">
+        <script src="/vendor/superfish/dist/js/jquery.js"></script> 
+        <script src="/vendor/superfish/dist/js/hoverIntent.js"></script>
+        <script src="/vendor/superfish/dist/js/superfish.js"></script>
+        <script>
+
+            (function ($) { //create closure so we can safely use $ as alias for jQuery
+
+                $(document).ready(function () {
+
+                    // initialise plugin
+                    var example = $('#example').superfish({
+                        //add options here if required
+                    });
+                    // buttons to demonstrate Superfish's public methods
+                    $('.destroy').on('click', function () {
+                        example.superfish('destroy');
+                    });
+                    $('.init').on('click', function () {
+                        example.superfish();
+                    });
+                    $('.open').on('click', function () {
+                        example.children('li:first').superfish('show');
+                    });
+                    $('.close').on('click', function () {
+                        example.children('li:first').superfish('hide');
+                    });
+                });
+            })(jQuery);
+
+            function includeHTML() {
+                var z, i, elmnt, file, xhttp;
+                /* Loop through a collection of all HTML elements: */
+                z = document.getElementsByTagName("*");
+                for (i = 0; i < z.length; i++) {
+                    elmnt = z[i];
+                    /*search for elements with a certain atrribute:*/
+                    file = elmnt.getAttribute("w3-include-html");
+                    if (file) {
+                        /* Make an HTTP request using the attribute value as the file name: */
+                        xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function () {
+                            if (this.readyState == 4) {
+                                if (this.status == 200) {
+                                    elmnt.innerHTML = this.responseText;
+                                }
+                                if (this.status == 404) {
+                                    elmnt.innerHTML = "Page not found.";
+                                }
+                                /* Remove the attribute, and call this function once more: */
+                                elmnt.removeAttribute("w3-include-html");
+                                includeHTML();
+                            }
+                        }
+                        xhttp.open("GET", file, true);
+                        xhttp.send();
+                        /* Exit the function: */
+                        return;
+                    }
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">The Kootenay Worm</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right" role="form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign in</button>
+                    </form>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav>
+        <div w3-include-html="/menu.html"></div>
+        <script>
+            includeHTML();
+        </script>
+        <!-- **************************************** -->
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron"  style="background-image: url('/files/images/UNLBackgroundHeader.jpg')">
+            <div class="container">
+                <h1>Hello, Nematodes of North America!</h1>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <h3>
+                Select Order first, then Family, then Genus, then Gender, then Magnification, then Observation... 
+            </h3>
+        </div>
+        <div class="container">
+            <p>
+                <button onclick="resetImages()">Clear Comparisons</button>
+            </p>
+        </div>
+        <div class="container">
+            <div class="btn-group">
+                <p>
+
+
+                    <select id="View" name="View">
+                        <option selected="selected" value="">Select Observation</option>
+                    </select>
+                    <select id="Order" name="Order">
+                        <option selected="selected" value="">Select Order</option>
+                    </select>
+                    <select id="Family" name="Family">
+                        <option selected="selected" value="">Select Family</option>
+                    </select>
+
+                    <select id="Genus" name="Genus">
+                        <option selected="selected" value="">Select Genus</option>
+                    </select>
+                    <select id="Gender" name="Gender">
+                        <option selected="selected" value="">Select Gender</option>
+                    </select>
+                    <select id="Magnification" name="Magnification">
+                        <option selected="selected" value="">Select Magnification</option>
+                    </select>
+                </p>
+
+            </div>
+        </div>
+        <div class="container">
+            <p>
+                <button onclick=displayImages()>Display Images</button>
+            </p>
+            <!-- /container -->
+        </div>
+        <div class="container">
+            <h3>Comparing</h3>
+                    <div id="CompareDiv"></div>
+            <div class="row">
+                    <hr>
+                    <div id="displayDiv"></div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <hr>
+            <footer>
+                <h3>Footer</h3>
+            </footer>
+        </div>
+        <!-- Example row of columns -->
+
+        <script>
+            window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')
+        </script>
+        <script src="/js/vendor/bootstrap.min.js"></script>
+        <script src="/js/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] || (b[l] = function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                }
+                );
+                b[l].l = +new Date;
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = '//www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+            ga('create', 'UA-XXXXX-X', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
