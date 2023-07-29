@@ -1,0 +1,685 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>P.Identification</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Bootstrap core CSS -->
+        <link href="/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/main.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(function() {
+                $("#wkw-header").load("/header-008.html");
+                $("#nav-placeholder").load("/menu.html");
+            });
+        </script>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+        <!-- comment -->
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <div id="wkw-header"></div>
+        <div id="nav-placeholder"></div>
+        <div class="table-responsive">
+            <table class="table">
+                <div class="table-responsive">
+                    <col>
+                    <colgroup span="1"></colgroup>
+                    <colgroup span="1"></colgroup>
+                    <colgroup span="2" style="background-color:lightgrey"></colgroup>
+                    <colgroup span="2"></colgroup>
+                    <colgroup span="2" style="background-color:lightgrey"></colgroup>
+                    <colgroup span="2"></colgroup>
+                    <colgroup span="2" style="background-color:lightgrey"></colgroup>
+                    <colgroup span="2"></colgroup>
+                    <colgroup span="2" style="background-color:lightgrey"></colgroup>
+                    <colgroup span="2"></colgroup>
+                    <colgroup span="2" style="background-color:lightgrey"></colgroup>
+                    <colgroup span="1"></colgroup>
+                    <tr>
+                        <th colspan="1" scope="colgroup"></th>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <th colspan="2" scope="colgroup">Tail</th>
+                        <th colspan="2" scope="colgroup">Length</th>
+                        <th colspan="2" scope="colgroup">a</th>
+                        <th colspan="2" scope="colgroup">b</th>
+                        <th colspan="2" scope="colgroup">b'</th>
+                        <th colspan="2" scope="colgroup">c</th>
+                        <th colspan="2" scope="colgroup">c'</th>
+                        <th colspan="2" scope="colgroup">Stylet</th>
+                        <th colspan="1" scope="colgroup"></th>
+                        <th colspan="1" scope="colgroup"></th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Species</th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Lateral-Field">Lateral Field 
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Lateral-Field" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Lateral Fields</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img id="myImg" src="/Identification by Comparison/Pratylenchus/Key Images/Lateral_Field.png" alt="Lateral Fields" style="width:100%;height:auto;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Stylet-Knob">Stylet Knob 
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Stylet-Knob" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Stylet Knobs</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img id="myImg" src="/Identification by Comparison/Pratylenchus/Key Images/Stylet_Knobs.png" alt="Stylet Knobs" style="width:100%;height:auto;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Male-Tail">Male 
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Male-Tail" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Male Tail</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img id="myImg" src="/Identification by Comparison/Pratylenchus/Key Images/Tails.png" alt="Tails" style="width:100%;height:auto;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Female-Tail">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Female-Tail" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Female Tail</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img id="myImg" src="/Identification by Comparison/Pratylenchus/Key Images/Female_Tails.png" alt="Tails" style="width:100%;height:auto;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Male-Length">Male
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Male-Length" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Overall Male Body Length</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 0.10 mm &lt;L &le;0.20 mm <br>
+                                            B) 0.20 mm &lt;L &le;0.30 mm <br>
+                                            C) 0.30 mm &lt;L &le;0.40 mm <br>
+                                            D) 0.40 mm &lt;L &le;0.50 mm <br>
+                                            E) 0.50 mm &lt;L &le;0.60 mm <br>
+                                            F) 0.60 mm &lt;L &le;0.70 mm <br>
+                                            G) 0.70 mm &lt;L &le;0.80 mm <br>
+                                            H) 0.80 mm &lt;L &le;0.90 mm <br>
+                                            I) 0.90 mm &lt;L &le;1.00 mm <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Female-Length">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Female-Length" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Overall Female Body Length</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 0.10 mm &lt;L &le;0.20 mm <br>
+                                            B) 0.20 mm &lt;L &le;0.30 mm <br>
+                                            C) 0.30 mm &lt;L &le;0.40 mm <br>
+                                            D) 0.40 mm &lt;L &le;0.50 mm <br>
+                                            E) 0.50 mm &lt;L &le;0.60 mm <br>
+                                            F) 0.60 mm &lt;L &le;0.70 mm <br>
+                                            G) 0.70 mm &lt;L &le;0.80 mm <br>
+                                            H) 0.80 mm &lt;L &le;0.90 mm <br>
+                                            I) 0.90 mm &lt;L &le;1.00 mm <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-am">Male
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-am" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">a= (Body Length) / (Greatest Body Diameter)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 18  &lt;a &le;20  <br>
+                                            B) 20  &lt;a &le;22  <br>
+                                            C) 22  &lt;a &le;24  <br>
+                                            D) 24  &lt;a &le;26  <br>
+                                            E) 26  &lt;a &le;28  <br>
+                                            F) 28  &lt;a &le;30  <br>
+                                            G) 30  &lt;a &le;32  <br>
+                                            H) 32  &lt;a &le;34  <br>
+                                            I) 34  &lt;a &le;36  <br>
+                                            J) 36  &lt;a &le;38  <br>
+                                            K) 38  &lt;a &le;40  <br>
+                                            L) 40  &lt;a &le;42  <br>
+                                            M) 42  &lt;a &le;44  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-af">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-af" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">a= (Body Length) / (Greatest Body Diameter)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 18  &lt;a &le;20  <br>
+                                            B) 20  &lt;a &le;22  <br>
+                                            C) 22  &lt;a &le;24  <br>
+                                            D) 24  &lt;a &le;26  <br>
+                                            E) 26  &lt;a &le;28  <br>
+                                            F) 28  &lt;a &le;30  <br>
+                                            G) 30  &lt;a &le;32  <br>
+                                            H) 32  &lt;a &le;34  <br>
+                                            I) 34  &lt;a &le;36  <br>
+                                            J) 36  &lt;a &le;38  <br>
+                                            K) 38  &lt;a &le;40  <br>
+                                            L) 40  &lt;a &le;42  <br>
+                                            M) 42  &lt;a &le;44  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-bm">Male
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-bm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">b = (Body Length) / (Distance From The Anterior To Esophagus-Intestinal Valve)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; b &le; 2  <br>
+                                            B) 2 &lt; b &le; 3  <br>
+                                            C) 3 &lt; b &le; 4  <br>
+                                            D) 4 &lt; b &le; 5  <br>
+                                            E) 5 &lt; b &le; 6  <br>
+                                            F) 6 &lt; b &le; 7  <br>
+                                            G) 7 &lt; b &le; 8  <br>
+                                            H) 8 &lt; b &le; 9  <br>
+                                            I) 9 &lt; b &le; 10  <br>
+                                            J) 10 &lt; b &le; 11  <br>
+                                            K) 11 &lt; b &le; 12  <br>
+                                            L) 11 &lt; b &le; 13  <br>
+                                            M) 12 &lt; b &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-bf">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-bf" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">b = (Body Length) / (Distance From The Anterior To Esophagus-Intestinal Valve)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; b &le; 2  <br>
+                                            B) 2 &lt; b &le; 3  <br>
+                                            C) 3 &lt; b &le; 4  <br>
+                                            D) 4 &lt; b &le; 5  <br>
+                                            E) 5 &lt; b &le; 6  <br>
+                                            F) 6 &lt; b &le; 7  <br>
+                                            G) 7 &lt; b &le; 8  <br>
+                                            H) 8 &lt; b &le; 9  <br>
+                                            I) 9 &lt; b &le; 10  <br>
+                                            J) 10 &lt; b &le; 11  <br>
+                                            K) 11 &lt; b &le; 12  <br>
+                                            L) 11 &lt; b &le; 13  <br>
+                                            M) 12 &lt; b &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-bprm">Male
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-bprm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">b' = (Body Length) / (Distance From The Anterior To Base Of The Esophageal Glands)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; b' &le; 2  <br>
+                                            B) 2 &lt; b' &le; 3  <br>
+                                            C) 3 &lt; b' &le; 4  <br>
+                                            D) 4 &lt; b' &le; 5  <br>
+                                            E) 5 &lt; b' &le; 6  <br>
+                                            F) 6 &lt; b' &le; 7  <br>
+                                            G) 7 &lt; b' &le; 8  <br>
+                                            H) 8 &lt; b' &le; 9  <br>
+                                            I) 9 &lt; b' &le; 10  <br>
+                                            J) 10 &lt; b' &le; 11  <br>
+                                            K) 11 &lt; b' &le; 12  <br>
+                                            L) 11 &lt; b' &le; 13  <br>
+                                            M) 12 &lt; b' &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-bprf">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-bprf" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">b' = (Body Length) / (Distance From The Anterior To Base Of The Esophageal Glands)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; b' &le; 2  <br>
+                                            B) 2 &lt; b' &le; 3  <br>
+                                            C) 3 &lt; b' &le; 4  <br>
+                                            D) 4 &lt; b' &le; 5  <br>
+                                            E) 5 &lt; b' &le; 6  <br>
+                                            F) 6 &lt; b' &le; 7  <br>
+                                            G) 7 &lt; b' &le; 8  <br>
+                                            H) 8 &lt; b' &le; 9  <br>
+                                            I) 9 &lt; b' &le; 10  <br>
+                                            J) 10 &lt; b' &le; 11  <br>
+                                            K) 11 &lt; b' &le; 12  <br>
+                                            L) 11 &lt; b' &le; 13  <br>
+                                            M) 12 &lt; b' &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-cm">Male
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-cm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">c = (The Body Length) / (The Tail Length)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; c &le; 2  <br>
+                                            B) 2 &lt; c &le; 3  <br>
+                                            C) 3 &lt; c &le; 4  <br>
+                                            D) 4 &lt; c &le; 5  <br>
+                                            E) 5 &lt; c &le; 6  <br>
+                                            F) 6 &lt; c &le; 7  <br>
+                                            G) 7 &lt; c &le; 8  <br>
+                                            H) 8 &lt; c &le; 9  <br>
+                                            I) 9 &lt; c &le; 10  <br>
+                                            J) 10 &lt; c &le; 11  <br>
+                                            K) 11 &lt; c &le; 12  <br>
+                                            L) 11 &lt; c &le; 13  <br>
+                                            M) 12 &lt; c &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-cf">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-cf" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">c = (The Body Length) / (The Tail Length)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; c &le; 2  <br>
+                                            B) 2 &lt; c &le; 3  <br>
+                                            C) 3 &lt; c &le; 4  <br>
+                                            D) 4 &lt; c &le; 5  <br>
+                                            E) 5 &lt; c &le; 6  <br>
+                                            F) 6 &lt; c &le; 7  <br>
+                                            G) 7 &lt; c &le; 8  <br>
+                                            H) 8 &lt; c &le; 9  <br>
+                                            I) 9 &lt; c &le; 10  <br>
+                                            J) 10 &lt; c &le; 11  <br>
+                                            K) 11 &lt; c &le; 12  <br>
+                                            L) 11 &lt; c &le; 13  <br>
+                                            M) 12 &lt; c &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-cprm">Male
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-cprm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">c' = (The Length of The Tail) / (The Tail Diameter At The Anus or Cloaca)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; c' &le; 2  <br>
+                                            B) 2 &lt; c' &le; 3  <br>
+                                            C) 3 &lt; c' &le; 4  <br>
+                                            D) 4 &lt; c' &le; 5  <br>
+                                            E) 5 &lt; c' &le; 6  <br>
+                                            F) 6 &lt; c' &le; 7  <br>
+                                            G) 7 &lt; c' &le; 8  <br>
+                                            H) 8 &lt; c' &le; 9  <br>
+                                            I) 9 &lt; c' &le; 10  <br>
+                                            J) 10 &lt; c' &le; 11  <br>
+                                            K) 11 &lt; c' &le; 12  <br>
+                                            L) 11 &lt; c' &le; 13  <br>
+                                            M) 12 &lt; c' &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                                                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#De-Man-Formulae-cprf">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="De-Man-Formulae-cprf" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">c' = (The Length of The Tail) / (The Tail Diameter At The Anus or Cloaca)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 1 &lt; c' &le; 2  <br>
+                                            B) 2 &lt; c' &le; 3  <br>
+                                            C) 3 &lt; c' &le; 4  <br>
+                                            D) 4 &lt; c' &le; 5  <br>
+                                            E) 5 &lt; c' &le; 6  <br>
+                                            F) 6 &lt; c' &le; 7  <br>
+                                            G) 7 &lt; c' &le; 8  <br>
+                                            H) 8 &lt; c' &le; 9  <br>
+                                            I) 9 &lt; c' &le; 10  <br>
+                                            J) 10 &lt; c' &le; 11  <br>
+                                            K) 11 &lt; c' &le; 12  <br>
+                                            L) 11 &lt; c' &le; 13  <br>
+                                            M) 12 &lt; c' &le; 14  <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Male-Style">Male
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Male-Style" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">s = stylet or spear length (stomatostyle or odontostyle)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 10 μm &lt; stylet &le; 20 μm <br>
+                                            B) 20 μm &lt; stylet &le; 30 μm <br>
+                                            C) 30 μm &lt; stylet &le; 40 μm <br>
+                                            D) 40 μm &lt; stylet &le; 50 μm <br>
+                                            E) 50 μm &lt; stylet &le; 60 μm <br>
+                                            F) 60 μm &lt; stylet &le; 70 μm <br>
+                                            G) 70 μm &lt; stylet &le; 80 μm <br>
+                                            H) 80 μm &lt; stylet &le; 90 μm <br>
+                                            I) 90 μm &lt; stylet &le; 100 μm <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Female-Stylet">Female
+                            </button>
+                            <!-- The Modal -->
+                            <div id="Female-Stylet" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">s = stylet or spear length (stomatostyle or odontostyle)</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            A) 10 μm &lt; stylet &le; 20 μm <br>
+                                            B) 20 μm &lt; stylet &le; 30 μm <br>
+                                            C) 30 μm &lt; stylet &le; 40 μm <br>
+                                            D) 40 μm &lt; stylet &le; 50 μm <br>
+                                            E) 50 μm &lt; stylet &le; 60 μm <br>
+                                            F) 60 μm &lt; stylet &le; 70 μm <br>
+                                            G) 70 μm &lt; stylet &le; 80 μm <br>
+                                            H) 80 μm &lt; stylet &le; 90 μm <br>
+                                            I) 90 μm &lt; stylet &le; 100 μm <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                        <th scope="col">Spicules</th>
+                        <th scope="col">Gubernaculum</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Teddy Bears</th>
+                        <td>Coll</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Board Games</th>
+                        <td>Coll</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                    </tr>
+            </table>
+        </div>
+</div>
+<footer>
+    <p>References</p>
+    <p>Lawrence Perepolkin</p>
+    <object data="/files/images/publicdomain.svg"></object>
+</footer>
+<script src="/js/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script>
+    $('#myModal').on('shown.bs.modal', function() {
+        $('#myInput').trigger('focus');
+    });
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+</script>
+</body></html>

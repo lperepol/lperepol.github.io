@@ -1,0 +1,1317 @@
+digraph GraphTitle {
+	graph [rankdir=LR remincross=True]
+	label="Monoentry polytomous
+ key to species of the 
+genus Pratylenchus (mainly to females)
+ A.Y. Ryss (1975)"
+	"01)
+ Female spermatheca
+" [label="01)
+ Female spermatheca
+" fillcolor=aqua shape=hexagon style=filled]
+	"02)
+ Tail tip
+shape
+" [label="02)
+ Tail tip
+shape
+" fillcolor=aqua shape=hexagon style=filled]
+	"06)
+ Tail tip
+shape
+" [label="06)
+ Tail tip
+shape
+" fillcolor=aqua shape=hexagon style=filled]
+	"09)
+ Head annuli
+" [label="09)
+ Head annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"38)
+ Head annuli
+" [label="38)
+ Head annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"13)
+ Head annuli
+" [label="13)
+ Head annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. goodeyi
+" [label="P. goodeyi
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. vulnus
+" [label="P. vulnus
+" fillcolor=aqua shape=hexagon style=filled]
+	"33)
+ Cephalic region
+" [label="33)
+ Cephalic region
+" fillcolor=aqua shape=hexagon style=filled]
+	"23)
+ Cephalic region
+" [label="23)
+ Cephalic region
+" fillcolor=aqua shape=hexagon style=filled]
+	"03)
+ Head annuli
+" [label="03)
+ Head annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"40)
+ Median bulb
+" [label="40)
+ Median bulb
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudopratensis
+" [label="P. pseudopratensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"04)
+ Number of
+tail annuli
+" [label="04)
+ Number of
+tail annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"25)
+ Lateral field
+areolation
+" [label="25)
+ Lateral field
+areolation
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. crassi
+" [label="P. crassi
+" fillcolor=aqua shape=hexagon style=filled]
+	"05)
+ Cephalic framework
+sclerotization
+" [label="05)
+ Cephalic framework
+sclerotization
+" fillcolor=aqua shape=hexagon style=filled]
+	"19)
+ Lateral field
+areolation
+" [label="19)
+ Lateral field
+areolation
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. alleni
+" [label="P. alleni
+" fillcolor=aqua shape=hexagon style=filled]
+	"42)
+ Tail tip
+sculpture
+" [label="42)
+ Tail tip
+sculpture
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. sudanensis
+" [label="P. sudanensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. goodeyi
+" [label="P. goodeyi
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. convallariae
+" [label="P. convallariae
+" fillcolor=aqua shape=hexagon style=filled]
+	"36)
+ Head annuli
+" [label="36)
+ Head annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"07)
+ Tail tip
+sculpture
+" [label="07)
+ Tail tip
+sculpture
+" fillcolor=aqua shape=hexagon style=filled]
+	"31)
+ Tail tip
+sculpture
+" [label="31)
+ Tail tip
+sculpture
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. alleni
+" [label="P. alleni
+" fillcolor=aqua shape=hexagon style=filled]
+	"08)
+ Head annuli
+" [label="08)
+ Head annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. convallariae
+" [label="P. convallariae
+" fillcolor=aqua shape=hexagon style=filled]
+	"30)
+ Gland lobe
+" [label="30)
+ Gland lobe
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. alleni
+" [label="P. alleni
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. emarginatus
+" [label="P. emarginatus
+" fillcolor=aqua shape=hexagon style=filled]
+	"10)
+ Median bulb
+" [label="10)
+ Median bulb
+" fillcolor=aqua shape=hexagon style=filled]
+	"17)
+ Stylet knobs
+" [label="17)
+ Stylet knobs
+" fillcolor=aqua shape=hexagon style=filled]
+	"27)
+ Cephalic region
+" [label="27)
+ Cephalic region
+" fillcolor=aqua shape=hexagon style=filled]
+	"11)
+ Cephalic framework
+sclerotization
+" [label="11)
+ Cephalic framework
+sclerotization
+" fillcolor=aqua shape=hexagon style=filled]
+	"16)
+ Number of
+tail annuli
+" [label="16)
+ Number of
+tail annuli
+" fillcolor=aqua shape=hexagon style=filled]
+	"12)
+ Lateral field
+areolation
+" [label="12)
+ Lateral field
+areolation
+" fillcolor=aqua shape=hexagon style=filled]
+	"17)
+ Stylet knobs
+" [label="17)
+ Stylet knobs
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. andinus
+" [label="P. andinus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. sefaensis
+" [label="P. sefaensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"14)
+ Cephalic region
+" [label="14)
+ Cephalic region
+" fillcolor=aqua shape=hexagon style=filled]
+	"18)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" [label="18)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" fillcolor=aqua shape=hexagon style=filled]
+	"39)
+ Tail tip
+sculpture
+" [label="39)
+ Tail tip
+sculpture
+" fillcolor=aqua shape=hexagon style=filled]
+	"15)
+ Cephalic framework
+sclerotization
+" [label="15)
+ Cephalic framework
+sclerotization
+" fillcolor=aqua shape=hexagon style=filled]
+	"21)
+ Posterior genital
+branch differentiation
+" [label="21)
+ Posterior genital
+branch differentiation
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. australis
+" [label="P. australis
+" fillcolor=aqua shape=hexagon style=filled]
+	"43)
+ Stylet length
+" [label="43)
+ Stylet length
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. dasi
+" [label="P. dasi
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. barkati
+" [label="P. barkati
+" fillcolor=aqua shape=hexagon style=filled]
+	"20)
+ Tail tip
+shape
+" [label="20)
+ Tail tip
+shape
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. scribneri
+" [label="P. scribneri
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. wescolargicus
+" [label="P. wescolargicus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. bolivianus
+" [label="P. bolivianus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. brachyurus
+" [label="P. brachyurus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. macrostylus
+" [label="P. macrostylus
+" fillcolor=aqua shape=hexagon style=filled]
+	"32)
+ Tail tip
+sculpture
+" [label="32)
+ Tail tip
+sculpture
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudocoffeae
+" [label="P. pseudocoffeae
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. coffeae
+" [label="P. coffeae
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. crenatus
+" [label="P. crenatus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pinguicaudatus
+" [label="P. pinguicaudatus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. scribneri
+" [label="P. scribneri
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. mulchandi
+" [label="P. mulchandi
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. sensillatus
+" [label="P. sensillatus
+" fillcolor=aqua shape=hexagon style=filled]
+	"22)
+ Tail tip
+shape
+" [label="22)
+ Tail tip
+shape
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. delattrei
+" [label="P. delattrei
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. teres
+" [label="P. teres
+" fillcolor=aqua shape=hexagon style=filled]
+	"24)
+ Stylet knobs
+" [label="24)
+ Stylet knobs
+" fillcolor=aqua shape=hexagon style=filled]
+	"34)
+ Tail tip
+sculpture
+" [label="34)
+ Tail tip
+sculpture
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. vulnus
+" [label="P. vulnus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. ekrami
+" [label="P. ekrami
+" fillcolor=aqua shape=hexagon style=filled]
+	"26)
+ Index V
+" [label="26)
+ Index V
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudocoffeae
+" [label="P. pseudocoffeae
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. emarginatus
+" [label="P. emarginatus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudopratensis
+" [label="P. pseudopratensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"28)
+ Tail tip
+sculpture
+" [label="28)
+ Tail tip
+sculpture
+" fillcolor=aqua shape=hexagon style=filled]
+	"37)
+ Posterior genital
+branch differentiation
+" [label="37)
+ Posterior genital
+branch differentiation
+" fillcolor=aqua shape=hexagon style=filled]
+	"33)
+ Cephalic region
+" [label="33)
+ Cephalic region
+" fillcolor=aqua shape=hexagon style=filled]
+	"29)
+ Stylet knobs
+" [label="29)
+ Stylet knobs
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. estoniensis
+" [label="P. estoniensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. gibbicaudatus
+" [label="P. gibbicaudatus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. fallax
+" [label="P. fallax
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. exilis
+" [label="P. exilis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. sudanensis
+" [label="P. sudanensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. flakkensis
+" [label="P. flakkensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. hexincisus
+" [label="P. hexincisus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. impar
+" [label="P. impar
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pratensis
+" [label="P. pratensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. kasari
+" [label="P. kasari
+" fillcolor=aqua shape=hexagon style=filled]
+	".P. pratensis
+" [label=".P. pratensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"35)
+ Lateral field
+areolation
+" [label="35)
+ Lateral field
+areolation
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudocoffeae
+" [label="P. pseudocoffeae
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. loosi
+" [label="P. loosi
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. loosi
+" [label="P. loosi
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. penetrans
+" [label="P. penetrans
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. macrostylus
+" [label="P. macrostylus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. japonicus
+" [label="P. japonicus
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. neglectus
+" [label="P. neglectus
+" fillcolor=aqua shape=hexagon style=filled]
+	"43)
+ Stylet length
+" [label="43)
+ Stylet length
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. ranjani
+" [label="P. ranjani
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. nizamabadensis
+" [label="P. nizamabadensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"41)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" [label="41)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" fillcolor=aqua shape=hexagon style=filled]
+	"46)
+ Cephalic region
+" [label="46)
+ Cephalic region
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. sudanensis
+" [label="P. sudanensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudopratensis
+" [label="P. pseudopratensis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudocoffeae
+" [label="P. pseudocoffeae
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. similis
+" [label="P. similis
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. microstylus
+" [label="P. microstylus
+" fillcolor=aqua shape=hexagon style=filled]
+	"44)
+ Tail tip
+" [label="44)
+ Tail tip
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. subranjani
+" [label="P. subranjani
+" fillcolor=aqua shape=hexagon style=filled]
+	"45)
+ Tail tip
+" [label="45)
+ Tail tip
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. thornei
+" [label="P. thornei
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. zeae
+" [label="P. zeae
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. pseudocoffeae
+" [label="P. pseudocoffeae
+" fillcolor=aqua shape=hexagon style=filled]
+	"P. unzenensis
+" [label="P. unzenensis
+" fillcolor=aqua shape=hexagon style=filled]
+	Start
+ -> "01)
+ Female spermatheca
+" [label="Key to Species
+Pratylenchus
+"]
+	"01)
+ Female spermatheca
+" -> "02)
+ Tail tip
+shape
+" [label="filled with sperm,
+oval
+"]
+	"01)
+ Female spermatheca
+" -> "06)
+ Tail tip
+shape
+" [label="filled with sperm,
+round
+"]
+	"01)
+ Female spermatheca
+" -> "09)
+ Head annuli
+" [label="without sperm, distinct,
+offset, with round
+or oval
+"]
+	"01)
+ Female spermatheca
+" -> "38)
+ Head annuli
+" [label="without sperm, distinct,
+offset, with slit-like
+cavity
+"]
+	"01)
+ Female spermatheca
+" -> "13)
+ Head annuli
+" [label="indistinct, not offset
+from outline of
+female genital tract
+"]
+	"02)
+ Tail tip
+shape
+" -> "P. goodeyi
+" [label="conical with heel-like
+dorsal outline
+"]
+	"02)
+ Tail tip
+shape
+" -> "P. vulnus
+" [label="irregular or obliquely
+truncate
+"]
+	"02)
+ Tail tip
+shape
+" -> "33)
+ Cephalic region
+" [label=pointed
+]
+	"02)
+ Tail tip
+shape
+" -> "23)
+ Cephalic region
+" [label="conically rounded
+"]
+	"02)
+ Tail tip
+shape
+" -> "03)
+ Head annuli
+" [label=rounded
+]
+	"02)
+ Tail tip
+shape
+" -> "40)
+ Median bulb
+" [label="spherical or truncate
+"]
+	"03)
+ Head annuli
+" -> "P. pseudopratensis
+" [label=four
+]
+	"03)
+ Head annuli
+" -> "04)
+ Number of
+tail annuli
+" [label=two
+]
+	"03)
+ Head annuli
+" -> "25)
+ Lateral field
+areolation
+" [label=three
+]
+	"04)
+ Number of
+tail annuli
+" -> "P. crassi
+" [label="15 or less
+"]
+	"04)
+ Number of
+tail annuli
+" -> "05)
+ Cephalic framework
+sclerotization
+" [label="16-19
+"]
+	"04)
+ Number of
+tail annuli
+" -> "19)
+ Lateral field
+areolation
+" [label="20-25
+"]
+	"05)
+ Cephalic framework
+sclerotization
+" -> "P. alleni
+" [label=light
+]
+	"05)
+ Cephalic framework
+sclerotization
+" -> "42)
+ Tail tip
+sculpture
+" [label=moderate
+]
+	"06)
+ Tail tip
+shape
+" -> "P. sudanensis
+" [label=truncate
+]
+	"06)
+ Tail tip
+shape
+" -> "P. goodeyi
+" [label="conical with heel-like
+dorsal outline
+"]
+	"06)
+ Tail tip
+shape
+" -> "P. convallariae
+" [label="irregular or bilobed
+"]
+	"06)
+ Tail tip
+shape
+" -> "36)
+ Head annuli
+" [label="conically rounded
+"]
+	"06)
+ Tail tip
+shape
+" -> "07)
+ Tail tip
+sculpture
+" [label=rounded
+]
+	"06)
+ Tail tip
+shape
+" -> "31)
+ Tail tip
+sculpture
+" [label=spherical
+]
+	"07)
+ Tail tip
+sculpture
+" -> "P. alleni
+" [label="smooth with 1
+or 2 annuli
+"]
+	"07)
+ Tail tip
+sculpture
+" -> "08)
+ Head annuli
+" [label="smooth, without annuli
+or incisures
+"]
+	"07)
+ Tail tip
+sculpture
+" -> "P. convallariae
+" [label="irregularly annulated (terminal
+annuli of markedly
+different width)
+
+"]
+	"07)
+ Tail tip
+sculpture
+" -> "30)
+ Gland lobe
+" [label="regularly annulated (terminal
+annuli of equal
+width)
+
+"]
+	"08)
+ Head annuli
+" -> "P. alleni
+" [label=two
+]
+	"08)
+ Head annuli
+" -> "P. emarginatus
+" [label=three
+]
+	"09)
+ Head annuli
+" -> "10)
+ Median bulb
+" [label=three
+]
+	"09)
+ Head annuli
+" -> "17)
+ Stylet knobs
+" [label=four
+]
+	"09)
+ Head annuli
+" -> "27)
+ Cephalic region
+" [label=two
+]
+	"10)
+ Median bulb
+" -> "11)
+ Cephalic framework
+sclerotization
+" [label=oval
+]
+	"10)
+ Median bulb
+" -> "16)
+ Number of
+tail annuli
+" [label=round
+]
+	"11)
+ Cephalic framework
+sclerotization
+" -> "12)
+ Lateral field
+areolation
+" [label=moderate
+]
+	"11)
+ Cephalic framework
+sclerotization
+" -> "17)
+ Stylet knobs
+" [label=hard
+]
+	"12)
+ Lateral field
+areolation
+" -> "P. andinus
+" [label="present on tail
+"]
+	"12)
+ Lateral field
+areolation
+" -> "P. sefaensis
+" [label=absent
+]
+	"13)
+ Head annuli
+" -> "14)
+ Cephalic region
+" [label=three
+]
+	"13)
+ Head annuli
+" -> "18)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" [label=two
+]
+	"13)
+ Head annuli
+" -> "39)
+ Tail tip
+sculpture
+" [label=four
+]
+	"14)
+ Cephalic region
+" -> "15)
+ Cephalic framework
+sclerotization
+" [label="continuous, not separated
+by marked constriction
+from body
+"]
+	"14)
+ Cephalic region
+" -> "21)
+ Posterior genital
+branch differentiation
+" [label="offset, separated by
+marked constriction from
+body
+"]
+	"15)
+ Cephalic framework
+sclerotization
+" -> "P. australis
+" [label=hard
+]
+	"15)
+ Cephalic framework
+sclerotization
+" -> "43)
+ Stylet length
+" [label=moderate
+]
+	"16)
+ Number of
+tail annuli
+" -> "P. dasi
+" [label="13-15
+"]
+	"16)
+ Number of
+tail annuli
+" -> "P. barkati
+" [label="16-19
+"]
+	"16)
+ Number of
+tail annuli
+" -> "20)
+ Tail tip
+shape
+" [label="20-25
+"]
+	"16)
+ Number of
+tail annuli
+" -> "P. scribneri
+" [label="26-31
+"]
+	"17)
+ Stylet knobs
+" -> "P. wescolargicus
+" [label="directed anteriorly
+"]
+	"17)
+ Stylet knobs
+" -> "P. bolivianus
+" [label="directed laterally
+"]
+	"18)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" -> "P. brachyurus
+" [label=two
+]
+	"18)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" -> "P. macrostylus
+" [label=three
+]
+	"18)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" -> "32)
+ Tail tip
+sculpture
+" [label=four
+]
+	"19)
+ Lateral field
+areolation
+" -> "P. pseudocoffeae
+" [label="present on tail
+"]
+	"19)
+ Lateral field
+areolation
+" -> "P. coffeae
+" [label=absent
+]
+	"20)
+ Tail tip
+shape
+" -> "P. crenatus
+" [label=rounded
+]
+	"20)
+ Tail tip
+shape
+" -> "P. pinguicaudatus
+" [label=spherical
+]
+	"20)
+ Tail tip
+shape
+" -> "P. scribneri
+" [label=irregular
+]
+	"21)
+ Posterior genital
+branch differentiation
+" -> "P. mulchandi
+" [label="6 and more
+oocytes
+"]
+	"21)
+ Posterior genital
+branch differentiation
+" -> "P. sensillatus
+" [label="6 and more
+somatic nuclei in
+compact body
+"]
+	"21)
+ Posterior genital
+branch differentiation
+" -> "22)
+ Tail tip
+shape
+" [label="oocytes or nuclei
+absent
+"]
+	"22)
+ Tail tip
+shape
+" -> "P. delattrei
+" [label="conically rounded
+"]
+	"22)
+ Tail tip
+shape
+" -> "P. teres
+" [label=rounded
+]
+	"23)
+ Cephalic region
+" -> "24)
+ Stylet knobs
+" [label="continuous, not separated
+by marked constriction
+from body
+"]
+	"23)
+ Cephalic region
+" -> "34)
+ Tail tip
+sculpture
+" [label="offset, separated by
+marked constriction from
+body
+"]
+	"24)
+ Stylet knobs
+" -> "P. vulnus
+" [label="directed laterally
+"]
+	"24)
+ Stylet knobs
+" -> "P. ekrami
+" [label="directed posteriorly
+"]
+	"25)
+ Lateral field
+areolation
+" -> "26)
+ Index V
+" [label=absent
+]
+	"25)
+ Lateral field
+areolation
+" -> "P. pseudocoffeae
+" [label="present on tail
+"]
+	"26)
+ Index V
+" -> "P. emarginatus
+" [label="73 or less
+"]
+	"26)
+ Index V
+" -> "P. pseudopratensis
+" [label="74 or more
+"]
+	"27)
+ Cephalic region
+" -> "28)
+ Tail tip
+sculpture
+" [label="offset, separated by
+marked constriction from
+body
+"]
+	"27)
+ Cephalic region
+" -> "37)
+ Posterior genital
+branch differentiation
+" [label="continuous, not separated
+by marked constriction
+from body
+"]
+	"28)
+ Tail tip
+sculpture
+" -> "33)
+ Cephalic region
+" [label="smooth, without annuli
+or incisures
+"]
+	"28)
+ Tail tip
+sculpture
+" -> "29)
+ Stylet knobs
+" [label="regularly annulated (terminal
+annuli of equal
+width)
+
+"]
+	"29)
+ Stylet knobs
+" -> "P. estoniensis
+" [label="directed anteriorly
+"]
+	"29)
+ Stylet knobs
+" -> "P. gibbicaudatus
+" [label="directed laterally
+"]
+	"30)
+ Gland lobe
+" -> "P. fallax
+" [label="50 mm or
+shorter
+"]
+	"30)
+ Gland lobe
+" -> "P. exilis
+" [label="51 mm or
+longer
+"]
+	"31)
+ Tail tip
+sculpture
+" -> "P. sudanensis
+" [label="smooth, without annuli
+or incisures
+"]
+	"31)
+ Tail tip
+sculpture
+" -> "P. flakkensis
+" [label="regularly annulated (terminal
+annuli of equal
+width)
+
+"]
+	"32)
+ Tail tip
+sculpture
+" -> "P. hexincisus
+" [label="smooth, without annuli
+or incisures
+"]
+	"32)
+ Tail tip
+sculpture
+" -> "P. impar
+" [label="regularly annulated (terminal
+annuli of equal
+width)
+
+"]
+	"33)
+ Cephalic region
+" -> "P. pratensis
+" [label="offset, separated by
+marked constriction from
+body
+"]
+	"33)
+ Cephalic region
+" -> "P. kasari
+" [label="continuous, not separated
+by marked constriction
+from body
+"]
+	"34)
+ Tail tip
+sculpture
+" -> ".P. pratensis
+" [label="regularly annulated (terminal
+annuli of equal
+width)
+
+"]
+	"34)
+ Tail tip
+sculpture
+" -> "35)
+ Lateral field
+areolation
+" [label="smooth, without annuli
+or incisures
+"]
+	"35)
+ Lateral field
+areolation
+" -> "P. pseudocoffeae
+" [label="present on tail
+"]
+	"35)
+ Lateral field
+areolation
+" -> "P. loosi
+" [label=absent
+]
+	"36)
+ Head annuli
+" -> "P. loosi
+" [label=two
+]
+	"36)
+ Head annuli
+" -> "P. penetrans
+" [label=three
+]
+	"37)
+ Posterior genital
+branch differentiation
+" -> "P. macrostylus
+" [label="1-3 oocytes
+"]
+	"37)
+ Posterior genital
+branch differentiation
+" -> "P. japonicus
+" [label="oocytes or nuclei
+absent
+"]
+	"38)
+ Head annuli
+" -> "P. neglectus
+" [label=two
+]
+	"38)
+ Head annuli
+" -> "43)
+ Stylet length
+" [label=three
+]
+	"39)
+ Tail tip
+sculpture
+" -> "P. ranjani
+" [label="smooth, without annuli
+or incisures
+"]
+	"39)
+ Tail tip
+sculpture
+" -> "P. nizamabadensis
+" [label="regularly annulated (terminal
+annuli of equal
+width)
+
+"]
+	"40)
+ Median bulb
+" -> "41)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" [label=round
+]
+	"40)
+ Median bulb
+" -> "46)
+ Cephalic region
+" [label=oval
+]
+	"41)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" -> "P. sudanensis
+" [label=three
+]
+	"41)
+ Number of
+incisures of lateral
+field between phasmid
+and tail tip
+" -> "P. pseudopratensis
+" [label=four
+]
+	"42)
+ Tail tip
+sculpture
+" -> "P. pseudocoffeae
+" [label="smooth, without annuli
+or incisures
+"]
+	"42)
+ Tail tip
+sculpture
+" -> "P. similis
+" [label="regularly annulated (terminal
+annuli of equal
+width)
+
+"]
+	"43)
+ Stylet length
+" -> "P. microstylus
+" [label="12 μm or
+less
+"]
+	"43)
+ Stylet length
+" -> "44)
+ Tail tip
+" [label="14 μm or
+more
+"]
+	"44)
+ Tail tip
+" -> "P. subranjani
+" [label="annulated, lateral field
+areolated at mid-body
+and tail
+"]
+	"44)
+ Tail tip
+" -> "45)
+ Tail tip
+" [label="smooth, lateral field
+not areolated
+"]
+	"45)
+ Tail tip
+" -> "P. thornei
+" [label="truncate, c´ (ratio
+of tail length
+to anal body
+width)
+ less than
+3, index V
+more than 76
+"]
+	"45)
+ Tail tip
+" -> "P. zeae
+" [label="narrow, conically rounded,
+index c’ more
+than 3, index
+V less than
+76
+"]
+	"46)
+ Cephalic region
+" -> "P. pseudocoffeae
+" [label="offset, separated by
+marked constriction from
+body
+"]
+	"46)
+ Cephalic region
+" -> "P. unzenensis
+" [label="continuous, not separated
+by marked constriction
+from body
+"]
+}

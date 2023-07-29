@@ -1,0 +1,133 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+.header-content-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.header-title {
+    margin: auto;
+    width: 1000px;
+    
+    top: 80px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+}
+
+.top-buffer {
+    margin-top: 50px;
+}
+
+img, svg {
+    vertical-align: middle;
+    border: 2px solid #555;
+    margin: 5px;
+    width: 595px;
+    height: auto;
+}
+
+.img_key {
+    vertical-align: middle;
+    border: 2px solid #555;
+    margin: 5px;
+    width: 511px;
+    height: auto;
+}
+
+.checkbox_img_key {
+    vertical-align: middle;
+    border: 2px solid #555;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+
+.cap-width-001 {
+    vertical-align: middle;
+    margin: 5px;
+    width: 511px;
+    height: auto;
+}
+
+
+.img_no_key {
+    width: 590px;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+
+.header_image_caption_white {
+    float: left;
+    position: relative;
+    top: 175px;
+    color: white;
+}
+.header_image_caption_white_008 {
+    float: left;
+    position: relative;
+    top: 90px;
+    color: white;
+    
+}
+
+.header_image_caption_black {
+    float: left;
+    position: relative;
+    top: 175px;
+    color: black;
+}
+
+.bg_image_001 {
+    background-image: url('/files/images/HomeBackgroundHeader_002.jpg');
+    height: 250px;
+}
+.bg_image_002 {
+    background-image: url('/files/images/UNL_KonzaPraire.jpg');
+    height: 250px;
+}
+
+.VCE_Class_001 {
+    max-width: 100%;
+}
+
+.checkbox_img_key_lateral_field {
+  width: 250px;
+  height: auto;
+}
+
+.checkbox-img-key-female-tail {
+  width: 90px;
+  height: auto;
+}
+
+
+
